@@ -27,7 +27,11 @@
 			      </li>
 			      <li>
 				<label for="number">数量：</label>
-				<input type="range" name="number" id="number" value="10" min="0" max="20" data-theme="a" />
+				<div data-role="controlgroup" data-type="horizontal">
+				    <a href="#" data-role="button" data-icon="plus"></a>
+				    <a href="#" data-role="button">1</a>
+				    <a href="#" data-role="button" data-icon="minus"></a>
+				</div>
 				<label for="note">备注：</label>
 				<textarea placeholder="请输入您的备注信息，比如辣椒多少、不要蒜等等..."></textarea>
 				<p>合计：<span id="total red">30</span>元</p>

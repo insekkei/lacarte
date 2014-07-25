@@ -1,15 +1,32 @@
 /*style.css*/
+.ui-header .ui-btn{
+	background:transparent !important;
+	border:0;
+}
+.store-list li p{
+	line-height:1.7em;
+}
 input,a,button,div{
 	outline:0 !important;
 }
 span.red{
 	color:#008000;
+	line-height:1.2em;
+	font-size:1.2em;
+	font-weight:bold;
+}
+span.code{
+	color:#999 !important;
+	display:inline-block;
+	margin-right:8px !important;
+}
+h1 span.red{
+	color:#f9f9f9;
 }
 .dj.right{
 	position: absolute;
 	right: 60px;
 	font-size: 14px;
-	font-weight: normal;
 	color: #008000;
 }
 .grey.ui-content{
@@ -28,6 +45,9 @@ form{
 	background:#fff;
 	border-radius:.5em;
 	border:1px solid #ddd;
+}
+textarea{
+	height:2.5em;;
 }
 .submit-btn{
 	background:#dedaba !important;

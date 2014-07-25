@@ -17,14 +17,31 @@
 	</div>
 	<div data-role="content" class="grey" data-theme="a">
 		<form method="post" action="caipin.html">
-		  <div data-role="fieldcontain">
-			
-			 <label for="time">送餐时间：</label>
-			 <input type="time" name="time" id="time">
-			
-		  </div>
-		  <input type="submit" class="submit-btn" value="添加">
-		  <a class="ui-btn ui-input-btn ui-corner-all " href="caipin.html">取消</a>
+			<label for="time">送餐时间：</label>
+			<select name="time" id="time" data-native-menu="false">
+			      <option value="1">7月25日12:30</option>
+			      <option value="2">7月25日13:30</option>
+			      <option value="3">7月25日17:30</option>
+			</select>
+			<label>送餐地址：</label>
+			<label for="addr1">杨鹏博 13333333333 凤城二路</label>
+	  		<input type="radio" name="addr" id="addr1" value="addr1">
+			<label for="addr2">杨婵媛 13333333333 凤城二路</label>
+	  		<input type="radio" name="addr" id="addr2" value="addr2">
+			<div data-role="collapsible">
+			      <h1>添加地址</h1>
+			      <label for="name">姓名：</label>
+			      <input type="text" name="name" placeholder="张三">
+			      <label for="tel">电话：</label>
+			      <input type="text" name="tel" placeholder="手机号">
+			      <label for="addr">地址：</label>
+			      <input type="text" name="addr" placeholder="请尽量填写详细地址">
+			      <label for="addr">备注：</label>
+			      <textarea placeholder="张三"></textarea>
+			      <input type="button" class="submit-btn" value="添加">
+			</div>
+		  	<input type="submit" class="submit-btn" value="提交">
+			<a class="ui-btn ui-input-btn ui-corner-all " href="caipin.html">取消</a>
 		</form>		
 	</div>
 </div>
