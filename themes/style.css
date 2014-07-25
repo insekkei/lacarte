@@ -1,0 +1,35 @@
+/*style.css*/
+input,a,button,div{
+	outline:0 !important;
+}
+span.red{
+	color:#008000;
+}
+.dj.right{
+	position: absolute;
+	right: 60px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #008000;
+}
+.grey.ui-content{
+	background:#F2F0E4;
+}
+.ui-li-has-thumb a img{
+	display:inline-block;
+	width:65px;
+	margin:1% 2%;
+	border-radius:40px !important;
+}
+form{
+	width:90%;
+	margin:1em auto;
+	padding:1em;
+	background:#fff;
+	border-radius:.5em;
+	border:1px solid #ddd;
+}
+.submit-btn{
+	background:#dedaba !important;
+	opacity:.8 !important;
+}

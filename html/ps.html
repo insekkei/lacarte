@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>送餐要求</title>
+	<link rel="stylesheet" href="../themes/meal.css" />
+	<link rel="stylesheet" href="../themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+	<link rel="stylesheet" href="../themes/style.css" />
+</head>
+<body>
+<div data-role="page" data-theme="a" id="ps" data-title="备注">
+	<div data-role="header" data-position="inline">
+		<a href="javascript:history.back()" data-role="button" data-icon="back">返回</a>
+		<h1>备注</h1>
+		<a href="orderlist.html" data-role="button" data-icon="star"  data-iconpos="right"  data-transition="slidedown">已点</a>
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<form method="post" action="caipin.html">
+		  <div data-role="fieldcontain">
+			   <ul data-role="listview" data-inset="true">
+			      <li>
+				<img src="../pics/caipin1.jpg">
+				<h2>肉丸胡辣汤<span class="dj right">单价：23元</span></h2>
+				<p>种类：<span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+				</p>
+			      </li>
+			      <li>
+				<label for="number">数量：</label>
+				<input type="range" name="number" id="number" value="10" min="0" max="20" data-theme="a" />
+				<label for="note">备注：</label>
+				<textarea placeholder="请输入您的备注信息，比如辣椒多少、不要蒜等等..."></textarea>
+				<p>合计：<span id="total red">30</span>元</p>
+			      </li>
+			    </ul>
+		  </div>
+		  <input type="submit" class="submit-btn" value="添加">
+		  <a class="ui-btn ui-input-btn ui-corner-all " href="caipin.html">取消</a>
+		</form>		
+	</div>
+</div>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+</body>
+</html>
