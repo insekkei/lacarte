@@ -62,18 +62,18 @@ p.desc{
 	line-height:1.7em;
 	border-radius: 5px;
 	background: #fff;
+	position:relative;
 }
 p.desc:after{
 	content:"";
-	display:inline-block;
-	background:#F6FACE;
-	width:1px;
-	height:1px;
+	display:block;
+	width:0;
+	height:0;
 	border:10px solid #F6FACE;
 	border-top-color:#fff;
 	position: absolute;
-	left:50%;
-	bottom:57px;
+	left:49%;
+	bottom:-20px;
 }
 .grey.ui-content{
 	background:#F6FACE;
