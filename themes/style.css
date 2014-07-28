@@ -3,9 +3,7 @@
 	background:transparent !important;
 	border:0;
 }
-.ui-header .ui-title, .ui-footer .ui-title {
-    font-size: .9em;
-}
+
 .ui-navbar li .ui-btn {
     margin: 0 10px !important;
     border-radius: 10px;
@@ -103,11 +101,10 @@ form{
 }
 table{
 	width:100%;
-	collapse:collapse;
 	font-size:14px;
 }
 table td{
-	border:1px solid #fff;
+	border-bottom:1px dotted #fff;
 	padding:8px;
 }
 #send-info center{

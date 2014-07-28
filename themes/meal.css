@@ -24,7 +24,7 @@ button,
 .ui-btn {
 	font-size: 1em;
 	line-height: 1.3;
-	   font-family: sans-serif /*{global-font-family}*/;
+	font-family: '微软雅黑','Microsoft Yahei',sans-serif /*{global-font-family}*/!important;
 }
 legend,
 .ui-input-text input,
