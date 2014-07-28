@@ -37,13 +37,7 @@ h2 span.red{
 h1 span.red{
 	color:#f9f9f9;
 }
-a.more{
-	color:#fff !important;
-	background:#DEDABA !important;
-	font-weight:normal !important;
-	font-size:14px;
-	border:0;
-}
+
 a.plus,a.minus{
 	height:21px;
 	padding: 11px 21px;
@@ -120,10 +114,17 @@ textarea{
 	font-weight:normal;
 	color:#666;
 }
-.submit-btn{
-	background:#dedaba !important;
+a.more,.submit-btn{
 	color:#fff !important;
-	opacity:.8 !important;
+	background:#DEDABA !important;
+	font-weight:normal !important;
+	font-size:14px;
+	border:0;
+	opacity:1 !important;
+}
+.cancel{
+	padding:.5em 1em !important;
+	font-size:14px !important;
 }
 .ui-btn,h2,h3,h4{
 	font-weight:normal !important;
