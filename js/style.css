@@ -29,9 +29,6 @@ span.code{
 	display:inline-block;
 	margin-right:8px !important;
 }
-#ps h2{
-	font-weight:normal;
-}
 h2 span.red{
 	font-size:.8em;
 	margin-left:8px;
@@ -49,10 +46,6 @@ a.more{
 a.plus,a.minus{
 	height:21px;
 	padding: 11px 21px;
-}
-#number{
-	border-bottom:0;
-	border-top:0;
 }
 p.notes{
 	color:#999;
@@ -98,29 +91,14 @@ form{
 	border-radius:.5em;
 	border:1px solid #ddd;
 }
-table{
-	border:1px solid #ddd;
-}
-#send form{
-	padding:1em;
-}
 textarea{
 	font-size:15px;
 	height:55px !important;
 	resize:none;
 }
-.send-addr label{
-	border:0;
-	font-weight:normal;
-	color:#666;
-}
 .submit-btn{
 	background:#dedaba !important;
-	color:#fff !important;
 	opacity:.8 !important;
-}
-.ui-btn,h2,h3,h4{
-	font-weight:normal !important;
 }
 .clearfix{
 	zoom:1;

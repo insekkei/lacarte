@@ -223,8 +223,8 @@ html .ui-alt-icon .ui-radio-off:after {
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-	background-color: #ffa236 /*{a-bar-background-color}*/;
-	border-color: #ffa236 /*{a-bar-border}*/;
+	background-color: #f60 /*{a-bar-background-color}*/;
+	border-color: #f60 /*{a-bar-border}*/;
 	color: #ffffff /*{a-bar-color}*/;
 	text-shadow: 0 /*{a-bar-shadow-x}*/ 0 /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eeeeee /*{a-bar-shadow-color}*/;
 	font-weight: bold;
@@ -350,7 +350,7 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background-color: #dedaba /*{a-active-background-color}*/;
 	border-color: #dedaba /*{a-active-border}*/;
 	color: #ffffff /*{a-active-color}*/;
-	text-shadow: 0 /*{a-active-shadow-x}*/ 0 /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #005599 /*{a-active-shadow-color}*/;
+	text-shadow: 0 /*{a-active-shadow-x}*/ 0 /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ transparent /*{a-active-shadow-color}*/;
 }
 /* Active radio button icon */
 .ui-page-theme-a .ui-radio-on:after,
@@ -373,9 +373,9 @@ html .ui-body-a .ui-focus,
 html body .ui-group-theme-a .ui-focus,
 html head + body .ui-btn-a.ui-focus,
 html head + body .ui-body-a.ui-focus {
-	-webkit-box-shadow: 0 0 12px #dedaba /*{a-active-background-color}*/;
-	-moz-box-shadow: 0 0 12px #dedaba /*{a-active-background-color}*/;
-	box-shadow: 0 0 12px #dedaba /*{a-active-background-color}*/;
+	-webkit-box-shadow: 0 0 0 #dedaba /*{a-active-background-color}*/;
+	-moz-box-shadow: 0 0 0 #dedaba /*{a-active-background-color}*/;
+	box-shadow: 0 0 0 #dedaba /*{a-active-background-color}*/;
 }
 /* Structure */
 /* Disabled
@@ -415,4 +415,4 @@ button[disabled],
 	outline-width: 1px;
 	outline-style: auto;
 }
-			
+

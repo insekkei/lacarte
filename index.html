@@ -9,71 +9,300 @@
 	<link rel="stylesheet" href="themes/style.css" />
 </head>
 <body>
-	<div data-role="page" data-theme="a">
-		<div data-role="header" data-position="inline">
-			<h1>附近的店铺<span class="red">(5)</span></h1>
+<!-- 店铺start -->
+<div data-role="page" data-theme="a" id="stores">
+	<div data-role="header" data-position="inline">
+		<h1>附近的店铺<span class="red">(5)</span></h1>
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<ul data-role="listview" data-inset="true" class="store-list">
+		      <li>
+			<a href="#caipin" data-transition="slide">
+			<img src="pics/store.jpg">
+			<h2><span class="code">50085</span>张军擀面皮</h2>
+			<p>
+				距离<span class="red">23</span>米，<span class="red">0</span>元起送
+				<br>地科技岛广场A座2606室(500米)
+			</p>
+			<p class="notes">
+				我们不生产水，我们只是大自然的搬运工。
+			</p>
+			</a>
+		      </li>
+		      <li>
+			<a href="#caipin" data-transition="slide">
+			<img src="pics/store2.jpg">
+			<h2><span class="code">50085</span>面饼粥饭</h2>
+			<p>
+				距离<span class="red">23</span>米，<span class="red">0</span>元起送
+				<br>地科技岛广场A座2606室(500米)
+			</p>
+			<p class="notes">
+				我们不生产水，我们只是大自然的搬运工。
+			</p>
+			</a>
+		      </li>
+		      <li>
+			<a href="#caipin" data-transition="slide">
+			<img src="pics/store3.jpg">
+			<h2><span class="code">50085</span>麦当劳</h2>
+			<p>
+				距离<span class="red">23</span>米，<span class="red">0</span>元起送
+				<br>地科技岛广场A座2606室(500米)
+			</p>
+			<p class="notes">
+				我们不生产水，我们只是大自然的搬运工。
+			</p>
+			</a>
+		      </li>
+		      <li>
+			<a href="#caipin" data-transition="slide">
+			<img src="pics/store4.jpg">
+			<h2><span class="code">50085</span>比格pizza</h2>
+			<p>
+				距离<span class="red">23</span>米，<span class="red">0</span>元起送
+				<br>地科技岛广场A座2606室(500米)
+			</p>
+			<p class="notes">
+				我们不生产水，我们只是大自然的搬运工。
+			</p>
+			</a>
+		      </li>
+		      <li>
+			<a href="#caipin" data-transition="slide">
+			<img src="pics/store5.jpg">
+			<h2><span class="code">50085</span>晋阳饭庄</h2>
+			<p>
+				距离<span class="red">23</span>米，<span class="red">0</span>元起送
+				<br>地科技岛广场A座2606室(500米)
+			</p>
+			<p class="notes">
+				我们不生产水，我们只是大自然的搬运工。
+			</p>
+			</a>
+		      </li>
+		    </ul>
+		    <a href="" class="ui-btn ui-input-btn ui-corner-all more">更多...</a>
+	</div>
+
+</div><!-- /店铺over -->
+<!--  菜单start -->
+<div data-role="page" data-theme="a" data-title="面饼粥饭" id="caipin">
+	<div data-role="header" data-position="inline">
+		<a href="#stores" data-icon="back">返回</a>
+		<h1>面饼粥饭</h1>
+		<a href="#orderlist" data-icon="star"  data-iconpos="right"  data-transition="slidedown">3份<br>40元</a>
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<div data-role="navbar">
+		      <ul>
+			<li><a href="#">全部</a></li>
+			<li><a href="#">热菜</a></li>
+			<li><a href="#">凉菜</a></li>
+			<li><a href="#">主食</a></li>
+			<li><a href="#">推荐</a></li>
+		      </ul>
 		</div>
-		<div data-role="content" class="grey" data-theme="a">
-			<ul data-role="listview" data-inset="true" class="store-list">
-			      <li>
-				<a href="html/caipin.html" data-transition="slide">
-				<img src="pics/store.jpg">
-				<h2><span class="code">50085</span>张军擀面皮</h2>
-				<p>
-					距离<span class="red">23</span>米，<span class="red">0</span>元起送
-					<br>位置信息位置信息位置信息
-					<br>个性签名个性签名个性签名个性签名
+		<ul data-role="listview" data-inset="true">
+		      <li data-icon="plus">
+			<a href="#ps"  data-transition="slide">
+			<img src="pics/caipin1.jpg">
+			<h2><span class="code">07</span>肉丸胡辣汤<span class="red">23元/份</span></h2>
+			<p>种类：<span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			</p>
+			</a>
+		      </li>
+		      <li data-icon="plus">
+			<a href="#ps"  data-transition="slide">
+			<img src="pics/caipin2.jpg">
+			<h2><span class="code">07</span>炒麻食<span class="red">23元/份</span></h2>
+			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			</p>
+			</a>
+		      </li>
+		      <li data-icon="plus">
+			<a href="#ps"  data-transition="slide">
+			<img src="pics/caipin3.jpg">
+			<h2><span class="code">07</span>烩麻食<span class="red">23元/份</span></h2>
+			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			</p>
+			</a>
+		      </li>
+		      <li data-icon="plus">
+			<a href="#ps"  data-transition="slide">
+			<img src="pics/caipin4.jpg">
+			<h2><span class="code">07</span>pizza<span class="red">23元/份</span></h2>
+			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			</p>
+			</a>
+		     </li>
+		     <li data-icon="plus">
+			<a href="#ps"  data-transition="slide">
+			<img src="pics/caipin5.jpg">
+			<h2><span class="code">07</span>韭菜鸡蛋饺子<span class="red">23元/份</span></h2>
+			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			</p>
+			</a>
+		      </li>
+		    </ul>
+		    <a href="" class="ui-btn ui-input-btn ui-corner-all more">更多...</a>
+		    <p class="desc">
+			晋阳饭庄：事件在用户垂直或水平旋转移动设备时被触发，是一个高端大气上档次的饭庄，地处xxx星球，主打xxx系列饭菜。
+		    </p>
+	</div>
+	<div data-role="footer">
+		<h3>50085 晋阳饭庄 </h3>
+	</div>
+</div><!-- /菜单over -->
+<!-- 已点列表start -->
+<div data-role="page" data-theme="a" data-title="已点列表" id="orderlist">
+	<div data-role="header" data-position="inline">
+		<a href="#caipin" data-role="button" data-icon="back">菜单</a>
+		<h1>已点列表</h1>
+		<a href="javascript:history.back()" data-role="button" data-icon="delete"  data-iconpos="right"  data-transition="slideup">关闭</a>
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<form method="post" action="#send-info">
+			<ul data-role="listview" data-inset="true">
+			      <li data-icon="plus">
+				<a href="#ps"  data-transition="slide">
+				<img src="pics/caipin1.jpg">
+				<h2>肉丸胡辣汤<span class="dj right">23元/份</span></h2>
+				<p>数量：<span class="red">3</span> 备注：不加辣椒
 				</p>
 				</a>
 			      </li>
-			      <li>
-				<a href="html/caipin.html" data-transition="slide">
-				<img src="pics/store2.jpg">
-				<h2>面饼粥饭</h2>
-				<p>
-					距离<span class="red">23</span>米，<span class="red">0</span>元起送
-					<br>位置信息位置信息位置信息
-					<br>个性签名个性签名个性签名个性签名
+			      <li data-icon="plus">
+				<a href="#ps"  data-transition="slide">
+				<img src="pics/caipin2.jpg">
+				<h2>炒麻食<span class="dj right">23元/份</span></h2>
+	<p>数量：<span class="red">3</span> 备注：不加辣椒
 				</p>
 				</a>
 			      </li>
+			</ul>
+			<p>合计：<span class="red">30</span>元</p>
+			<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send-info">下单</a>
+		</form>
+	</div>
+</div><!-- /已点列表over -->
+<!-- 点菜start -->
+<div data-role="page" data-theme="a" data-title="备注" id="ps" >
+	<div data-role="header" data-position="inline">
+		<h1>备注</h1>
+		<a href="#orderlist" data-role="button" data-icon="star"  data-iconpos="right"  data-transition="slidedown">3份<br>40元</a>
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<form method="post" action="#caipin">
+		  <div data-role="fieldcontain">
+			   <ul data-role="listview" data-inset="true">
 			      <li>
-				<a href="html/caipin.html" data-transition="slide">
-				<img src="pics/store3.jpg">
-				<h2>麦当劳</h2>
-				<p>
-					距离<span class="red">23</span>米，<span class="red">0</span>元起送
-					<br>位置信息位置信息位置信息
-					<br>个性签名个性签名个性签名个性签名
+				<img src="pics/caipin1.jpg">
+				<h2>肉丸胡辣汤<span class="red">23元/份</span></h2>
+				<p>种类：<span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
 				</p>
-				</a>
 			      </li>
 			      <li>
-				<a href="html/caipin.html" data-transition="slide">
-				<img src="pics/store4.jpg">
-				<h2>比格pizza</h2>
-				<p>
-					距离<span class="red">23</span>米，<span class="red">0</span>元起送
-					<br>位置信息位置信息位置信息
-					<br>个性签名个性签名个性签名个性签名
-				</p>
-				</a>
-			      </li>
-			      <li>
-				<a href="html/caipin.html" data-transition="slide">
-				<img src="pics/store5.jpg">
-				<h2>晋阳饭庄</h2>
-				<p>
-					距离<span class="red">23</span>米，<span class="red">0</span>元起送
-					<br>位置信息位置信息位置信息
-					<br>个性签名个性签名个性签名个性签名
-				</p>
-				</a>
+				<label for="number">数量：</label>
+				<div data-role="controlgroup" data-type="horizontal" class="clearfix">
+				    <a class="num-con minus" href="#" data-role="button" data-icon="minus"></a>
+				    <a id="number" href="#" data-role="button">1</a>
+				    <a class="num-con plus" href="#" data-role="button" data-icon="plus" data-iconpos="right"></a>
+				</div>
+				<br>
+				<label for="note">备注：</label>
+				<textarea placeholder="请输入您的备注信息，比如辣椒多少、不要蒜等等..."></textarea>
+				<p>合计：<span id="total red">30</span>元</p>
 			      </li>
 			    </ul>
-		</div>
+		  </div>
+		  <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="javascript:history.back()">添加并继续</a>
+		  <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send-info">直接下单</a>
+		  <a class="ui-btn ui-input-btn ui-corner-all " href="#caipin">取消</a>
+		</form>		
 	</div>
+</div><!-- /点菜over -->
+<!-- 下单start -->
+<div data-role="page" data-theme="a" data-title="下单" id="send">
+	<div data-role="header" data-position="inline">
+		<a href="javascript:history.back()" data-role="button" data-icon="back">返回</a>
+		<h1>下单</h1>
+		<a href="#orderlist" data-role="button" data-icon="star"  data-iconpos="right" >已点</a>
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<form method="post" action="#success">
+			<label for="time">送餐时间：</label>
+			<select name="time" id="time" data-native-menu="false">
+			      <option value="1">7月25日12:30</option>
+			      <option value="2">7月25日13:30</option>
+			      <option value="3">7月25日17:30</option>
+			</select>
+			<label>送餐地址：</label>
+			<div class="send-addr">
+				<label for="addr1">杨鹏博 13333333333 凤城二路</label>
+		  		<input type="radio" name="addr" id="addr1" value="addr1">
+				<label for="addr2">杨婵媛 13333333333 凤城二路</label>
+		  		<input type="radio" name="addr" id="addr2" value="addr2">
+			</div>
+			<div data-role="collapsible">
+			      <h1>添加地址</h1>
+			      <label for="name">姓名：</label>
+			      <input type="text" name="name" placeholder="张三">
+			      <label for="tel">电话：</label>
+			      <input type="text" name="tel" placeholder="手机号">
+			      <label for="addr">地址：</label>
+			      <input type="text" name="addr" placeholder="请尽量填写详细地址">
+			      <label for="addr">备注：</label>
+			      <textarea placeholder="张三"></textarea>
+			      <input type="button" class="submit-btn" value="添加">
+			</div>
+		  	<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#success">提交</a>
+			<a class="ui-btn ui-input-btn ui-corner-all " href="javascript:history.back()">取消</a>
+		</form>		
+	</div>
+</div>
+<!-- /下单over -->
+<!-- 下单提示start -->
+<div data-role="page" data-theme="a" data-title="下单" id="send-info">
+	<div data-role="header" data-position="inline">
+		<a href="javascript:history.back()" data-role="button" data-icon="back">3份，40元</a>
+		<h1>订单详情</h1>
+		
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<!-- 如果没有点餐 -->
+		<!-- <center>没有订单，<a href="javascript:history.back()">点此返回</a></center> -->
+		<table>
+			<thead>
+			    <tr><td>订单内容</td></tr>			
+			</thead>
+			<tbody>
+			    <tr><td>店铺：杨鹏博专卖店</td><td>付款方式：货到付款</td></tr>
+			    <tr><td>份数：1</td><td>合计：40元</td></tr>
+			    <tr><td>联系人：杨鹏博</td><td>联系电话：13333333333</td></tr>
+			    <tr><td colspan="2">联系地址：凤城二路</td></tr>
+			</tbody>
+		</table>
+		<center>是否提交订单？</center>
+		<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send">确定</a>
+		<a class="ui-btn ui-input-btn ui-corner-all " href="javascript:history.back()">取消</a>
+	</div>
+</div>
+<!-- /下单提示over -->
+<!-- 下单成功提示start -->
+<div data-role="page" data-theme="a" data-title="下单" id="success">
+	<div data-role="header" data-position="inline">
+		<a href="javascript:history.back()" data-role="button" data-icon="back">3份，40元</a>
+		<h1>订单详情</h1>
+		
+	</div>
+	<div data-role="content" class="grey" data-theme="a">
+		<center>订单已经成功提交，<a href="javascript:history.back()">点此返回</a></center>
+	</div>
+</div>
+<!-- /下单成功提示over -->
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
