@@ -124,6 +124,9 @@ a.plus,a.minus{
 	width:auto;
 	font-size:14px;
 }
+#send .clearfix>div,#send .clearfix>textarea{
+	width:80%;
+}
 form{
 	width:90%;
 	margin:0 auto;
