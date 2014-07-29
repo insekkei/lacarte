@@ -81,7 +81,7 @@ p.desc:after{
 #caipin .ui-li-has-thumb a img,#ps .ui-li-has-thumb img{
 	margin:1.3em 1em
 }
-#ps .ui-field-contain,#ps .ui-field-contain .ui-listview{
+#ps .ui-field-contain .ui-listview{
 	margin:0 !important;
 }
 
