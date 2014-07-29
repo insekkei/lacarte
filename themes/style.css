@@ -10,11 +10,14 @@
     border: 0px;
     padding: 5px 0;
 }
-.store-list li p,.caipin-list li p,#ps li p{
+.store-list li p,.caipin-list li p,#ps li p,.ui-navbar li .ui-btn{
 	line-height:1.7em;
 	text-overflow: initial;
 	overflow: auto;
 	white-space: normal;
+}
+.ui-icon-delete:after{
+	background-color: #ffa236;
 }
 input,a,button,div{
 	outline:0 !important;
@@ -84,7 +87,14 @@ p.desc:after{
 #ps .ui-field-contain .ui-listview{
 	margin:0 !important;
 }
-
+.note-label,.note-text{
+	display:inline-table !important;
+	width:auto !important;
+	vertical-align:middle;
+}
+.note-text{
+	width:80% !important;
+}
 .num-con,#number,.num-label{
 	display:inline-block !important;
 	width:auto;
@@ -107,6 +117,12 @@ a.plus,a.minus{
 	border-bottom:0;
 	border-top:0;
 	width:1em;
+}
+#send .clearfix>label,#send .clearfix>div,#send .clearfix>textarea{
+	display:inline-table;
+	vertical-align:middle;
+	width:auto;
+	font-size:14px;
 }
 form{
 	width:90%;

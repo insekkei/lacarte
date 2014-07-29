@@ -214,8 +214,10 @@
 				    <span id="number" href="#">1</span>
 				    <a class="num-con plus" href="#" data-role="button" data-icon="plus" data-iconpos="right"></a>
 				</div>
-				<label for="note">备注：</label>
-				<textarea placeholder="请输入您的备注信息，比如辣椒多少、不要蒜等等..."></textarea>
+				<div class="clearfix">
+				    <label class="note-label" for="note">备注：</label>
+				    <textarea class="note-text" placeholder="请输入您的备注信息"></textarea>
+				</div>
 				<p>合计：<span id="total red">30</span>元</p>
 			      </li>
 			    </ul>
@@ -251,12 +253,18 @@
 			<div data-role="collapsible">
 			      <h1>添加地址</h1>
 			      <div data-role="fieldcontain">
+				    <div class="clearfix">
 				      <label for="name">姓名：</label>
 				      <input type="text" name="name" placeholder="张三">
+				    </div>
+				    <div class="clearfix">
 				      <label for="tel">电话：</label>
 				      <input type="text" name="tel" placeholder="手机号">
+				    </div>
+				    <div class="clearfix">
 				      <label for="addr">地址：</label>
-				      <textarea name="addr" placeholder="请尽量填写详细地址"></textarea>
+				      <textarea name="addr" placeholder="请填写详细地址"></textarea>
+				    </div>
 			      </div>
 			      <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="">添加</a>
 			</div>
