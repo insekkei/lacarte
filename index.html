@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
 	<title>附近的店铺</title>
 	<link rel="stylesheet" href="themes/meal.css" />
 	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
@@ -11,7 +11,7 @@
 <body>
 <!-- 店铺start -->
 <div data-role="page" data-theme="a" id="stores">
-	<div data-role="header" data-position="inline">
+	<div data-role="header" data-position="fixed">
 		<h1>附近的店铺<span class="red">(5)</span></h1>
 	</div>
 	<div data-role="content" class="grey" data-theme="a">
@@ -82,18 +82,21 @@
 			</a>
 		      </li>
 		    </ul>
-		    <a href="" class="ui-btn ui-input-btn ui-corner-all more">更多...</a>
+		    <!--<a href="" class="ui-btn ui-input-btn ui-corner-all more">更多...</a>-->
 	</div>
 
 </div><!-- /店铺over -->
 <!--  菜单start -->
 <div data-role="page" data-theme="a" data-title="面饼粥饭" id="caipin">
-	<div data-role="header" data-position="inline">
+	<div data-role="header"  data-position="fixed">
 		<a href="#stores" data-icon="back">返回</a>
 		<h1>面饼粥饭</h1>
 		<a href="#orderlist" data-icon="star"  data-iconpos="right"  data-transition="slidedown">3份<br>40元</a>
 	</div>
 	<div data-role="content" class="grey" data-theme="a">
+		<p class="desc">
+			面饼粥饭：事件在用户垂直或水平旋转移动设备时被触发，是一个高端大气上档次的饭庄，地处xxx星球，主打xxx系列饭菜。
+		</p>
 		<div data-role="navbar">
 		      <ul>
 			<li><a href="#">全部</a></li>
@@ -103,52 +106,54 @@
 			<li><a href="#">推荐</a></li>
 		      </ul>
 		</div>
-		<ul data-role="listview" data-inset="true">
+		<ul data-role="listview" data-inset="true" class="caipin-list">
 		      <li data-icon="plus">
 			<a href="#ps"  data-transition="slide">
 			<img src="pics/caipin1.jpg">
-			<h2><span class="code">07</span>肉丸胡辣汤<span class="red">23元/份</span></h2>
-			<p>种类：<span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			<h2><span class="code">07</span>肉丸胡辣汤</h2>
+			<p><span class="red">23元/份</span>种类：<span class="red">热菜</span> </p>
+			<p class="notes">描述：事件在用户垂直或水平旋转移动设备时被触发。
 			</p>
 			</a>
 		      </li>
 		      <li data-icon="plus">
 			<a href="#ps"  data-transition="slide">
 			<img src="pics/caipin2.jpg">
-			<h2><span class="code">07</span>炒麻食<span class="red">23元/份</span></h2>
-			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			<h2><span class="code">07</span>肉丸胡辣汤</h2>
+			<p><span class="red">23元/份</span>种类：<span class="red">热菜</span> </p>
+			<p class="notes">描述：事件在用户垂直或水平旋转移动设备时被触发。
 			</p>
 			</a>
 		      </li>
 		      <li data-icon="plus">
 			<a href="#ps"  data-transition="slide">
 			<img src="pics/caipin3.jpg">
-			<h2><span class="code">07</span>烩麻食<span class="red">23元/份</span></h2>
-			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			<h2><span class="code">07</span>肉丸胡辣汤</h2>
+			<p><span class="red">23元/份</span>种类：<span class="red">热菜</span> </p>
+			<p class="notes">描述：事件在用户垂直或水平旋转移动设备时被触发。
 			</p>
 			</a>
 		      </li>
 		      <li data-icon="plus">
 			<a href="#ps"  data-transition="slide">
 			<img src="pics/caipin4.jpg">
-			<h2><span class="code">07</span>pizza<span class="red">23元/份</span></h2>
-			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			<h2><span class="code">07</span>肉丸胡辣汤</h2>
+			<p><span class="red">23元/份</span>种类：<span class="red">热菜</span> </p>
+			<p class="notes">描述：事件在用户垂直或水平旋转移动设备时被触发。
 			</p>
 			</a>
 		     </li>
 		     <li data-icon="plus">
 			<a href="#ps"  data-transition="slide">
 			<img src="pics/caipin5.jpg">
-			<h2><span class="code">07</span>韭菜鸡蛋饺子<span class="red">23元/份</span></h2>
-			<p><span class="red">热菜</span> 描述：事件在用户垂直或水平旋转移动设备时被触发。
+			<h2><span class="code">07</span>肉丸胡辣汤</h2>
+			<p><span class="red">23元/份</span>种类：<span class="red">热菜</span> </p>
+			<p class="notes">描述：事件在用户垂直或水平旋转移动设备时被触发。
 			</p>
 			</a>
 		      </li>
 		    </ul>
-		    <a href="" class="ui-btn ui-input-btn ui-corner-all more">更多...</a>
-		    <p class="desc">
-			晋阳饭庄：事件在用户垂直或水平旋转移动设备时被触发，是一个高端大气上档次的饭庄，地处xxx星球，主打xxx系列饭菜。
-		    </p>
+		    <!--<a href="" class="ui-btn ui-input-btn ui-corner-all more">更多...</a>-->
 	</div>
 	<div data-role="footer">
 		<h3>50085 晋阳饭庄 </h3>
@@ -156,15 +161,14 @@
 </div><!-- /菜单over -->
 <!-- 已点列表start -->
 <div data-role="page" data-theme="a" data-title="已点列表" id="orderlist">
-	<div data-role="header" data-position="inline">
+	<div data-role="header"  data-position="fixed">
 		<a href="#caipin" data-role="button" data-icon="back">菜单</a>
 		<h1>已点列表</h1>
-		<a href="javascript:history.back()" data-role="button" data-icon="delete"  data-iconpos="right"  data-transition="slideup">关闭</a>
 	</div>
 	<div data-role="content" class="grey" data-theme="a">
-		<form method="post" action="#send-info">
+		<form method="post" action="#send">
 			<ul data-role="listview" data-inset="true">
-			      <li data-icon="plus">
+			      <li data-icon="delete">
 				<a href="#ps"  data-transition="slide">
 				<img src="pics/caipin1.jpg">
 				<h2>肉丸胡辣汤<span class="dj right">23元/份</span></h2>
@@ -172,7 +176,7 @@
 				</p>
 				</a>
 			      </li>
-			      <li data-icon="plus">
+			      <li data-icon="delete">
 				<a href="#ps"  data-transition="slide">
 				<img src="pics/caipin2.jpg">
 				<h2>炒麻食<span class="dj right">23元/份</span></h2>
@@ -182,16 +186,16 @@
 			      </li>
 			</ul>
 			<p>合计：<span class="red">30</span>元</p>
-			<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send-info">下单</a>
+			<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send">下单</a>
 		</form>
 	</div>
 </div><!-- /已点列表over -->
 <!-- 点菜start -->
 <div data-role="page" data-theme="a" data-title="备注" id="ps" >
-	<div data-role="header" data-position="inline">
+	<!--<div data-role="header"  data-position="fixed">
 		<h1>备注</h1>
 		<a href="#orderlist" data-role="button" data-icon="star"  data-iconpos="right"  data-transition="slidedown">3份<br>40元</a>
-	</div>
+	</div>-->
 	<div data-role="content" class="grey" data-theme="a">
 		<form method="post" action="#caipin">
 		  <div data-role="fieldcontain">
@@ -203,13 +207,13 @@
 				</p>
 			      </li>
 			      <li>
-				<label for="number">数量：</label>
-				<div data-role="controlgroup" data-type="horizontal" class="clearfix">
+				
+				<div class="clearfix">
+				    <label class="num-label">数量：</label>
 				    <a class="num-con minus" href="#" data-role="button" data-icon="minus"></a>
-				    <a id="number" href="#" data-role="button">1</a>
+				    <span id="number" href="#">1</span>
 				    <a class="num-con plus" href="#" data-role="button" data-icon="plus" data-iconpos="right"></a>
 				</div>
-				<br>
 				<label for="note">备注：</label>
 				<textarea placeholder="请输入您的备注信息，比如辣椒多少、不要蒜等等..."></textarea>
 				<p>合计：<span id="total red">30</span>元</p>
@@ -217,20 +221,20 @@
 			    </ul>
 		  </div>
 		  <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="javascript:history.back()">添加并继续</a>
-		  <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send-info">直接下单</a>
-		  <a class="ui-btn ui-input-btn ui-corner-all cancel" href="#caipin">取消</a>
+		  <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send">直接下单</a>
+		  <a class="ui-btn ui-input-btn ui-corner-all cancel" href="javascript:history.back()">取消</a>
 		</form>		
 	</div>
 </div><!-- /点菜over -->
 <!-- 下单start -->
 <div data-role="page" data-theme="a" data-title="下单" id="send">
-	<div data-role="header" data-position="inline">
+	<div data-role="header"  data-position="fixed">
 		<a href="javascript:history.back()" data-role="button" data-icon="back">返回</a>
 		<h1>下单</h1>
 		<a href="#orderlist" data-role="button" data-icon="star"  data-iconpos="right" >已点</a>
 	</div>
 	<div data-role="content" class="grey" data-theme="a">
-		<form method="post" action="#success">
+		<form method="post" action="#send-info">
 			<label for="time">送餐时间：</label>
 			<select name="time" id="time" data-native-menu="false">
 			      <option value="1">7月25日12:30</option>
@@ -246,25 +250,25 @@
 			</div>
 			<div data-role="collapsible">
 			      <h1>添加地址</h1>
-			      <label for="name">姓名：</label>
-			      <input type="text" name="name" placeholder="张三">
-			      <label for="tel">电话：</label>
-			      <input type="text" name="tel" placeholder="手机号">
-			      <label for="addr">地址：</label>
-			      <input type="text" name="addr" placeholder="请尽量填写详细地址">
-			      <label for="addr">备注：</label>
-			      <textarea placeholder="张三"></textarea>
-			      <input type="button" class="submit-btn" value="添加">
+			      <div data-role="fieldcontain">
+				      <label for="name">姓名：</label>
+				      <input type="text" name="name" placeholder="张三">
+				      <label for="tel">电话：</label>
+				      <input type="text" name="tel" placeholder="手机号">
+				      <label for="addr">地址：</label>
+				      <textarea name="addr" placeholder="请尽量填写详细地址"></textarea>
+			      </div>
+			      <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="">添加</a>
 			</div>
-		  	<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#success">提交</a>
-			<a class="ui-btn ui-input-btn ui-corner-all  cancel" href="javascript:history.back()">取消</a>
+		    <a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send-info">提交</a>
+		    <a class="ui-btn ui-input-btn ui-corner-all  cancel" href="javascript:history.back()">取消</a>
 		</form>		
 	</div>
 </div>
 <!-- /下单over -->
 <!-- 下单提示start -->
 <div data-role="page" data-theme="a" data-title="下单" id="send-info">
-	<div data-role="header" data-position="inline">
+	<div data-role="header"  data-position="fixed">
 		<a href="javascript:history.back()" data-role="button" data-icon="back">3份，40元</a>
 		<h1>订单详情</h1>
 		
@@ -284,14 +288,14 @@
 			</tbody>
 		</table>
 		<center>是否提交订单？</center>
-		<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#send">确定</a>
+		<a class="ui-btn ui-input-btn ui-corner-all submit-btn" href="#success">确定</a>
 		<a class="ui-btn ui-input-btn ui-corner-all  cancel" href="javascript:history.back()">取消</a>
 	</div>
 </div>
 <!-- /下单提示over -->
 <!-- 下单成功提示start -->
 <div data-role="page" data-theme="a" data-title="下单" id="success">
-	<div data-role="header" data-position="inline">
+	<div data-role="header"  data-position="fixed">
 		<a href="javascript:history.back()" data-role="button" data-icon="back">3份，40元</a>
 		<h1>订单详情</h1>
 		

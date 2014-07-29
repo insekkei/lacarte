@@ -187,6 +187,8 @@ html .ui-alt-icon .ui-radio-off:after {
 .ui-btn.ui-radio-off:after {
 	filter: Alpha(Opacity=30);
 	opacity: .3;
+	background: #aaa;
+	border: 1px solid #fff;
 }
 .ui-btn.ui-checkbox-off:after,
 .ui-btn.ui-checkbox-on:after {
