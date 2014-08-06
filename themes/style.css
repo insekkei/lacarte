@@ -128,8 +128,7 @@ a.plus,a.minus{
 	width:80%;
 }
 form{
-	width:90%;
-	margin:0 auto;
+	margin:1em;
 	padding:0 1em;
 	background:#fff;
 	border-radius:.5em;
@@ -159,18 +158,32 @@ textarea{
 	font-weight:normal;
 	color:#666;
 }
-
+.del-icon{
+	display: inline !important;
+	border: 0;
+	padding: 0;
+	position:absolute;
+	right:3em;
+}
+.ui-popup{
+	margin:auto;
+	max-width:400px;
+}
+.ui-popup h1{
+	margin:0 !important;
+}
 a.more,.submit-btn{
 	color:#fff !important;
 	background:#DEDABA !important;
 	font-weight:normal !important;
 	font-size:14px;
 	border:0;
+	padding:.5em 1em !important;
 	opacity:1 !important;
 }
 .cancel{
-	padding:.5em 1em !important;
 	font-size:14px !important;
+	padding:.5em 1em !important;
 }
 .ui-btn,h2,h3,h4{
 	font-weight:normal !important;
