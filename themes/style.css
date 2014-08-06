@@ -165,6 +165,10 @@ textarea{
 	position:absolute;
 	right:3em;
 }
+#orderlist .del-icon{
+	border-bottom-left-radius: 0 !important;
+	border-top-left-radius: 0 !important;
+}
 .ui-popup{
 	margin:auto;
 	max-width:400px;
